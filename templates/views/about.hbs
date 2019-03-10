@@ -5,8 +5,10 @@
         <script src="./js/index.js"></script>
     </head>
     <body>
-        {{>header}}
-        <h1>{{title}}</h1>
-        <img src="{{imageSrc}}" alt="" />
+        <div class="container">
+            {{>header}}
+            {{>nav}}
+            <img src="{{imageSrc}}" alt="" class="profile-pic" />
+        </div>
     </body>
 </html>
